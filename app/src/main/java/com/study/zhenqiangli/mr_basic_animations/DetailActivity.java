@@ -12,7 +12,7 @@ public class DetailActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Slide slide = new Slide(Gravity.BOTTOM);
-        slide.addTarget(R.id.description);
+        slide.addTarget(R.id.description).addTarget(R.id.image_detail);
         slide.setInterpolator(
                 AnimationUtils.loadInterpolator(this,
                         android.R.interpolator.linear_out_slow_in));

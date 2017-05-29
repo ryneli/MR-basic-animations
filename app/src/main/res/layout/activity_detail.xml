@@ -7,6 +7,7 @@
     android:gravity="center_horizontal"
     tools:context="com.study.zhenqiangli.mr_basic_animations.DetailActivity">
     <ImageView
+        android:id="@+id/image_detail"
         android:layout_width="@dimen/image.width"
         android:layout_height="@dimen/image.height"
         android:src="@color/cell.1.1"/>
