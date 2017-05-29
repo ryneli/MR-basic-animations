@@ -11,6 +11,7 @@
         android:layout_height="@dimen/image.height"
         android:src="@color/cell.1.1"/>
     <TextView
+        android:id="@+id/description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
