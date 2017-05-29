@@ -8,9 +8,10 @@
     tools:context="com.study.zhenqiangli.mr_basic_animations.DetailActivity">
     <ImageView
         android:id="@+id/image_detail"
+        android:transitionName="@string/transition_name"
         android:layout_width="@dimen/image.width"
         android:layout_height="@dimen/image.height"
-        android:src="@color/cell.1.1"/>
+        android:src="@drawable/yellow"/>
     <TextView
         android:id="@+id/description"
         android:layout_width="match_parent"

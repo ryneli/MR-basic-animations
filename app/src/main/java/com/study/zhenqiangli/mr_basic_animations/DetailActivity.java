@@ -4,6 +4,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.transition.Slide;
 import android.view.Gravity;
+import android.view.View;
+import android.view.Window;
 import android.view.animation.AnimationUtils;
 
 public class DetailActivity extends AppCompatActivity {
@@ -12,7 +14,7 @@ public class DetailActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Slide slide = new Slide(Gravity.BOTTOM);
-        slide.addTarget(R.id.description).addTarget(R.id.image_detail);
+        slide.addTarget(R.id.description);
         slide.setInterpolator(
                 AnimationUtils.loadInterpolator(this,
                         android.R.interpolator.linear_out_slow_in));

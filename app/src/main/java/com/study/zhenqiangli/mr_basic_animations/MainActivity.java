@@ -21,7 +21,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         Intent intent = new Intent(getBaseContext(), DetailActivity.class);
-        Bundle bundle = ActivityOptionsCompat.makeSceneTransitionAnimation(this).toBundle();
-        ActivityCompat.startActivity(this, intent, bundle);
+        View sharedView = findViewById(R.id.mid_cell);
+        Bundle sharedElementTransitionBundle = ActivityOptionsCompat.makeSceneTransitionAnimation(
+                this,
+                sharedView,
+                sharedView.getTransitionName()
+        ).toBundle();
+        ActivityCompat.startActivity(this, intent, sharedElementTransitionBundle);
     }
 }
