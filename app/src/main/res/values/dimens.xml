@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cell.width">100dp</dimen>
+    <dimen name="cell.height">100dp</dimen>
+    <dimen name="image.width">200dp</dimen>
+    <dimen name="image.height">200dp</dimen>
+</resources>

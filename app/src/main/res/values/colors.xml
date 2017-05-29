@@ -3,4 +3,13 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="cell.0.0">#000</color>
+    <color name="cell.0.1">#f00</color>
+    <color name="cell.0.2">#0f0</color>
+    <color name="cell.1.0">#00f</color>
+    <color name="cell.1.1">#ff0</color>
+    <color name="cell.1.2">#f0f</color>
+    <color name="cell.2.0">#0ff</color>
+    <color name="cell.2.1">#424242</color>
+    <color name="cell.2.2">#888</color>
 </resources>
